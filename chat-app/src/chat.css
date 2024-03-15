@@ -1,0 +1,60 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.chat-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.messages {
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.sent {
+  background-color: #DCF8C6;
+}
+
+.received {
+  background-color: #E8E8E8;
+  text-align: right;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button,
+.delete-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.send-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}
